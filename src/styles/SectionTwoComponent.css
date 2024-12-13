@@ -1,0 +1,38 @@
+.new-section {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  background-color: #f5efe6;
+  position: relative;
+}
+
+.section-title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 40px;
+  align-self: flex-start;
+}
+
+.section-arrows {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  display: flex;
+}
+
+.section-arrows img.arrow {
+  width: 34px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.images-row {
+  display: flex;
+  gap: 20px;
+}
+
+.images-row img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
