@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/SectionTwoComponent.css";
 
-const SectionTwoComponent = () => {
+const SectionTwoComponent = ({ title }) => {
   return (
     <section className="new-section">
-      <div className="section-title">Design Principles, Life Values</div>
+      <div className="section-title">{ title }</div>
       <div className="section-arrows">
         <img
           src="/Left.png"

@@ -11,8 +11,13 @@ const HomePage = () => {
   return (
     <main>
       <HeaderComponent />
-      <SectionOneComponent />
-      <SectionTwoComponent />
+      <SectionOneComponent
+        title="Who We Are"
+        description="NDH is more than design—it's emotion. Marrying luxury with meaning, we
+          shape spaces that mirror individual narratives and foster connections.
+          Each room becomes an echo of personal stories and dreams realized."
+      />
+      <SectionTwoComponent title="Design Principles, Life Values" />
       <SectionThreeComponent />
       <FooterComponent />
     </main>
